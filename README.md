@@ -1,17 +1,18 @@
-# 🔍 InstaSearch
+# 🔮 CoCreateAI
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=120&h=120&fit=crop&crop=center" alt="InstaSearch Logo" width="120" height="120" style="border-radius: 16px;">
   
-  <h3>Beautiful Images, Found Instantly</h3>
-  <p>A modern, AI-powered image search and generation platform</p>
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.3.2-black?logo=next.js&logoColor=white)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+  <h3>Build, Manage, and Share AI Prompts with Ease</h3>
+  <p>An AI-powered collaborative platform for managing and sharing high-quality prompts</p>
 
-[🚀 Live Demo](https://instasearch.kethanvr.me) | [📖 Features](#-features) | [💬 Reviews](#-reviews) | [👨‍💻 Developer](https://github.com/Kethanvr)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js\&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript\&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-38B2AC?logo=tailwind-css\&logoColor=white)](https://tailwindcss.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-2.0-3ECF8E?logo=supabase\&logoColor=white)](https://supabase.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+
+[📖 Features](#-features) | [💡 Use Cases](#-use-cases) | [🧠 Tech Stack](#-tech-stack) | [📞 Contact](#-contact)
 
 </div>
 
@@ -19,108 +20,70 @@
 
 ## 📖 About
 
-InstaSearch is a modern, AI-powered image search and generation platform that combines the power of Unsplash's vast image library with cutting-edge AI image generation capabilities. Built with Next.js 15, TypeScript, and Tailwind CSS, it provides a seamless experience for discovering and creating beautiful images.
+**CoCreateAI** is an AI-first platform for building, organizing, and sharing prompts collaboratively. Designed for developers, educators, and creators, it's built with a modern tech stack and a beautiful UX to make prompt engineering easier and more impactful.
 
-**This repository serves as a showcase of the InstaSearch project. The main development repository is private.**
+> *Note: This repository is public for viewing purposes only. The main development repo is private.*
+
+---
 
 ## ✨ Features
 
-### 🔍 Advanced Image Search
+### 🧠 AI Prompt Toolkit
 
-- **Instant Search** - Search through millions of high-quality photos from Unsplash
-- **Smart Filters** - Filter by orientation, colors, popularity, and more
-- **Responsive Grid** - Beautiful grid layout that adapts to screen size
-- **Quick Preview** - Click any image for detailed view and download options
+* **Prompt Editor** - Create and edit prompts with autosave
+* **Prompt Sharing** - Share prompts via unique links
+* **Smart Categorization** - Auto-tags and grouping
+* **Prompt Preview** - See output preview in real-time
 
-### 🤖 AI Image Generation
+### 🌈 UI & UX Goodies
 
-- **Text-to-Image** - Generate images from text descriptions using Google's Gemini AI
-- **AI Chat Interface** - Generate images through natural conversation
-- **Style Control** - Generate images in various artistic styles
-- **High Quality** - Generate high-resolution images suitable for any project
+* **Dark Mode** - Clean and focused design
+* **Responsive Layout** - Mobile-first interface
+* **Framer Motion Animations** - Smooth transitions
+* **Theme Personalization** - Switch styles and tones
 
-### 🎨 User Experience
-
-- **Mobile-First Design** - Responsive design that works on all devices
-- **Dark Mode Support** - Beautiful dark theme for comfortable viewing
-- **Lightning Fast** - Optimized performance with advanced caching
-- **Instant Downloads** - Download images in various sizes and formats
-
-### 🛠️ Technical Excellence
-
-- **Modern Stack** - Built with Next.js 15, TypeScript, and Tailwind CSS
-- **AI Integration** - Powered by Google Gemini AI for image generation
-- **API Integration** - Seamless integration with Unsplash API
-- **Performance Optimized** - Fast loading times and smooth animations
-
-
+---
 
 ## 🎯 Use Cases
 
-- **Designers** - Find high-quality images for projects quickly
-- **Developers** - Get images for mockups and demos
-- **Content Creators** - Discover beautiful backgrounds and visuals
-- **Students** - Access free images for presentations and projects
-- **Anyone** - Who appreciates clean, fast, and beautiful tools
+* **AI Enthusiasts** - Build a personal prompt library
+* **Educators** - Share learning content with students
+* **Hackathons** - Use as a base to quickly prototype AI tools
+* **Indie Makers** - Launch your own prompt-based tools
 
-## 💬 Reviews & Feedback
-
-> _"InstaSearch is exactly what I needed - a clean, fast way to find beautiful images without the clutter of traditional stock photo sites."_ - **Designer**
-
-> _"The AI image generation feature is incredible. I can create exactly what I need just by describing it."_ - **Content Creator**
-
-> _"Finally, a stock photo site that doesn't make me want to pull my hair out. Fast, clean, and actually useful."_ - **Developer**
-
-> _"The mobile experience is perfect. I use it on my phone all the time for quick image searches."_ - **Student**
+---
 
 ## 🛠️ Tech Stack
 
-- **Framework:** Next.js 15 with App Router
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS v4
-- **UI Components:** Radix UI
-- **Animations:** Framer Motion
-- **State Management:** TanStack Query
-- **Authentication:** Clerk
-- **AI Integration:** Google Gemini AI
-- **Image API:** Unsplash API
-- **Deployment:** Vercel
+* **Framework:** Next.js 14
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Backend:** Supabase + PostgreSQL
+* **Auth & Realtime:** Supabase RLS + Subscriptions
+* **AI:** Gemini API, LangChain
+* **Deployment:** Vercel
 
-
-## 🎨 Design Philosophy
-
-InstaSearch was built with a simple philosophy: **make it work, make it fast, make it beautiful**. No unnecessary features, no complicated interfaces - just a tool that does one thing really well.
-
-## 🚀 Future Plans
-
-- **User Accounts** - Save favorite images and collections
-- **AI Learning** - AI learns your style preferences
-- **Smart Collections** - AI-powered image organization
-- **Advanced Search** - Search using natural language and emotions
+---
 
 ## 📞 Contact
 
-- **Developer:** Kethan VR
-- **Email:** kethanvr@gmail.com
-- **GitHub:** [@Kethanvr](https://github.com/Kethanvr)
-- **LinkedIn:** [Kethan VR](https://linkedin.com/in/kethan-vr-433ab532b)
-- **Website:** [https://kethanvr.me](https://kethanvr.me)
+Interested in contributing ideas or collaborating?
+
+* **Email:** [kethanvr@gmail.com](mailto:kethanvr@gmail.com)
+* **LinkedIn:** [Kethan VR](https://linkedin.com/in/kethan-vr-433ab532b/)
+* **GitHub:** [@Kethanvr](https://github.com/Kethanvr)
+
+> Contributions via pull requests are disabled. If you'd like to collaborate, reach out directly.
+
+---
 
 ## 📝 License
 
-This project is licensed under the MIT License.
-
-## 🙏 Acknowledgments
-
-- [Unsplash](https://unsplash.com/) for providing the image API
-- [Google Gemini AI](https://ai.google.dev/) for AI capabilities
-- [Next.js](https://nextjs.org/) for the amazing framework
-- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
-- [Vercel](https://vercel.com/) for hosting and deployment
+Licensed under the [MIT License](LICENSE).
 
 ---
 
 <div align="center">
   <p>Made with ❤️ by <a href="https://github.com/Kethanvr">Kethan VR</a></p>
-  <p>Check out the <a href="https://instasearch.kethanvr.me">live demo</a> to see it in action!</p>
+  <p>For demo, collab, or feature ideas — hit me up!</p>
 </div>
